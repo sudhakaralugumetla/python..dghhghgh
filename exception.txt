@@ -1,0 +1,12 @@
+#exception
+sum = [00 , 22, 33]
+try :
+	div = 10/0
+	print(sum[3])
+
+except IndexError:
+	print("this is caused due to index out of bounds")
+except ZeroDivisionError:
+	print("this is caused due to divede by zero")
+else:
+	print ("this is finally)

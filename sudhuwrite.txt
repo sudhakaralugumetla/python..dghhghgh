@@ -1,0 +1,1 @@
+The write() method writes any string to an open file. It is important to note that Python strings can have binary data and not just text.
